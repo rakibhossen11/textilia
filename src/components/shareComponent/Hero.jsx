@@ -7,10 +7,10 @@ const Hero = ({hero, headline , sologan}) => {
   return (
     <div>
       {/* banner section */}
-      <section className="grid grid-cols-2 bg-[#f6f6f1] px-[60px] py-[30px]">
+      <section className="grid grid-cols-2 items-center gap-[30px] bg-[#f6f6f1] pl-[60px] py-[60px]">
         <div>
-          <Headline text={sologan} />
-          <Sologan text={headline} />
+          <Headline text={headline} />
+          <Sologan text={sologan} />
         </div>
         <div>
           <img src={hero} alt="" />

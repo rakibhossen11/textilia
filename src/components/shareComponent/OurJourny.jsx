@@ -7,7 +7,7 @@ import Sologan from "../HomeComponents/Sologan";
 import AboutBorder from "../HomeComponents/AboutBorder";
 import Button from "../HomeComponents/Button";
 
-const AboutJourney = () => {
+const OurJourney = () => {
   return (
     <section className="grid grid-cols-2 justify-center gap-[30px] px-[60px] pb-[30px]">
       <div className="grid grid-cols-2 items-center justify-end gap-[16px]">
@@ -39,4 +39,4 @@ const AboutJourney = () => {
   );
 };
 
-export default AboutJourney;
+export default OurJourney;
