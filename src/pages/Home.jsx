@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <div className="max-w-[1240px] mx-auto">
       {/* banner section */}
-      <section className="grid grid-cols-2 bg-[#f6f6f1]">
+      <section className="grid grid-cols-2 bg-[#f6f6f1] px-[60px] py-[30px]">
         <div>
           <Headline text={"MADE WITH LOVE BY TEXTILIA"} />
           <Sologan text={"Style in Every Strand Elegance in Every Stitch"} />
