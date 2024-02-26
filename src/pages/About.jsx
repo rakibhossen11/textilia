@@ -1,5 +1,5 @@
 import React from 'react';
-import hero from '../images/about_image/sewing.jpg';
+import hero from '../images/about/sewing.jpg';
 import Hero from '../components/shareComponent/Hero';
 import Signatura from '../components/shareComponent/Signatura';
 
